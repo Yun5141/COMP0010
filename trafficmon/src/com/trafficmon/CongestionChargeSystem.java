@@ -5,19 +5,12 @@ import java.util.*;
 
 public class CongestionChargeSystem {
 
-    public static final BigDecimal CHARGE_RATE_POUNDS_PER_MINUTE = new BigDecimal(0.05);
+    private final List<ZoneBoundaryCrossing> eventLog=EventLogger.getInstance().getEventLog();
+    private final ChargeGenerator chargeGenerator;
+    private final Actions actionsTaken=new ActionsDecided().getActions();
 
-    private final List<ZoneBoundaryCrossing> eventLog = new ArrayList<ZoneBoundaryCrossing>();
-
-    public void vehicleEnteringZone(Vehicle vehicle) {
-        eventLog.add(new EntryEvent(vehicle));
-    }
-
-    public void vehicleLeavingZone(Vehicle vehicle) {
-        if (!previouslyRegistered(vehicle)) {
-            return;
-        }
-        eventLog.add(new ExitEvent(vehicle));
+    public CongestionChargeSystem(ChargeGenerator chargeGenerator){
+        this.chargeGenerator=chargeGenerator;
     }
 
     public void calculateCharges() {
@@ -36,49 +29,19 @@ public class CongestionChargeSystem {
             List<ZoneBoundaryCrossing> crossings = vehicleCrossings.getValue();
 
             if (!checkOrderingOf(crossings)) {
-                OperationsTeam.getInstance().triggerInvestigationInto(vehicle);
+                actionsTaken.investigations(vehicle);
             } else {
 
-                BigDecimal charge = calculateChargeForTimeInZone(crossings);
+                BigDecimal charge = chargeGenerator.calculateChargeForTimeInZone(crossings);
 
-                try {
-                    RegisteredCustomerAccountsService.getInstance().accountFor(vehicle).deduct(charge);
+                try { actionsTaken.deductCharge(vehicle,charge);
                 } catch (InsufficientCreditException ice) {
-                    OperationsTeam.getInstance().issuePenaltyNotice(vehicle, charge);
+                    actionsTaken.penaltyNotice(vehicle, charge);
                 } catch (AccountNotRegisteredException e) {
-                    OperationsTeam.getInstance().issuePenaltyNotice(vehicle, charge);
+                    actionsTaken.penaltyNotice(vehicle, charge);
                 }
             }
         }
-    }
-
-    private BigDecimal calculateChargeForTimeInZone(List<ZoneBoundaryCrossing> crossings) {
-
-        BigDecimal charge = new BigDecimal(0);
-
-        ZoneBoundaryCrossing lastEvent = crossings.get(0);
-
-        for (ZoneBoundaryCrossing crossing : crossings.subList(1, crossings.size())) {
-
-            if (crossing instanceof ExitEvent) {
-                charge = charge.add(
-                        new BigDecimal(minutesBetween(lastEvent.timestamp(), crossing.timestamp()))
-                                .multiply(CHARGE_RATE_POUNDS_PER_MINUTE));
-            }
-
-            lastEvent = crossing;
-        }
-
-        return charge;
-    }
-
-    private boolean previouslyRegistered(Vehicle vehicle) {
-        for (ZoneBoundaryCrossing crossing : eventLog) {
-            if (crossing.getVehicle().equals(vehicle)) {
-                return true;
-            }
-        }
-        return false;
     }
 
     private boolean checkOrderingOf(List<ZoneBoundaryCrossing> crossings) {
@@ -101,8 +64,5 @@ public class CongestionChargeSystem {
         return true;
     }
 
-    private int minutesBetween(long startTimeMs, long endTimeMs) {
-        return (int) Math.ceil((endTimeMs - startTimeMs) / (1000.0 * 60.0));
-    }
 
 }
