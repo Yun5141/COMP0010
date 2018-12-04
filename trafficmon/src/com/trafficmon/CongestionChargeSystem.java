@@ -13,6 +13,9 @@ public class CongestionChargeSystem {
         this.chargeGenerator=chargeGenerator;
     }
 
+
+
+
     public void calculateCharges() {
 
         Map<Vehicle, List<ZoneBoundaryCrossing>> crossingsByVehicle = new HashMap<Vehicle, List<ZoneBoundaryCrossing>>();

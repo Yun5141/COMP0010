@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="069c9021-361b-4341-9627-eee0a336290f" name="Default Changelist" comment="">
+    <list default="true" id="ad174c59-5c8d-47c2-a2b6-6cee9ae605b0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/._trafficmon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/._lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/._src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/lib/._trafficmon-externals.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/._com" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/com/._trafficmon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/com/trafficmon/._CongestionChargeSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/com/trafficmon/._EntryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/com/trafficmon/._ExitEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/com/trafficmon/._Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__MACOSX/trafficmon/src/com/trafficmon/._ZoneBoundaryCrossing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/trafficmon_externals__2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/jmock_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/jmock_junit4_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/jmock-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/jmock-junit4-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/joda-time-2.10.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lib/trafficmon-externals.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ActionsDecided.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ActionsTaken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ChargeByMinutesCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ChargeByTimePeriodCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ChargeGenerator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/CongestionChargeSystem.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/EntryEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/EventLogger.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ExitEvent.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/Vehicle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/com/trafficmon/ZoneBoundaryCrossing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/com/trafficmon/APairOfNormalCrossingEventsCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/com/trafficmon/ChargeByMinutesCalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/com/trafficmon/ChargeByTimePeriodCalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/com/trafficmon/CongestionChargeSystemTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/com/trafficmon/EventLoggerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trafficmon.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,107 +40,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/trafficmon$All_in_trafficmon.ic" NAME="All in trafficmon Coverage Results" MODIFIED="1543856226284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-349244531">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2330" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2330" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-725132427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="43" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="43" />
-        </counts>
-      </usages-collector>
     </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/trafficmon/RegisteredCustomerAccountsService.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/ActionsTake.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/Actions.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/ActionsTaken.java" />
-        <option value="$PROJECT_DIR$/src/ActionsDecided.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/ActionsDecided.java" />
-        <option value="$PROJECT_DIR$/test/com/trafficmon/CongestionChargingSystemTest.java" />
-        <option value="$PROJECT_DIR$/test/com/trafficmon/ChargeByTimePeriodCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/CalculateByMins.java" />
-        <option value="$PROJECT_DIR$/test/com/trafficmon/EventLoggerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/CongestionChargeSystem.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/EventLogger.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/ZoneBoundaryCrossing.java" />
-        <option value="$PROJECT_DIR$/test/com/trafficmon/APairOfNormalCrossingEventsCreator.java" />
-        <option value="$PROJECT_DIR$/test/com/trafficmon/ChargeByMinutesCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/trafficmon/ChargeByTimePeriodCalculator.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -140,10 +61,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="748" />
-    <option name="y" value="33" />
-    <option name="width" value="593" />
-    <option name="height" value="700" />
+    <option name="x" value="325" />
+    <option name="y" value="155" />
+    <option name="width" value="690" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -151,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,56 +83,27 @@
             <path>
               <item name="trafficmon" type="b2602c69:ProjectViewProjectNode" />
               <item name="trafficmon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trafficmon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trafficmon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="trafficmon-externals.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="trafficmon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trafficmon" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trafficmon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trafficmon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trafficmon" type="b2602c69:ProjectViewProjectNode" />
               <item name="trafficmon" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="trafficmon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543857946803" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543939686672" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in trafficmon">
+  <component name="RunManager">
     <configuration name="All in trafficmon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trafficmon" />
       <option name="PACKAGE_NAME" value="" />
@@ -233,54 +126,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChargeByMinutesCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trafficmon" />
-      <option name="PACKAGE_NAME" value="com.trafficmon" />
-      <option name="MAIN_CLASS_NAME" value="com.trafficmon.ChargeByMinutesCalculatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChargeByTimePeriodCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trafficmon" />
-      <option name="PACKAGE_NAME" value="com.trafficmon" />
-      <option name="MAIN_CLASS_NAME" value="com.trafficmon.ChargeByTimePeriodCalculatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventLoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trafficmon" />
-      <option name="PACKAGE_NAME" value="com.trafficmon" />
-      <option name="MAIN_CLASS_NAME" value="com.trafficmon.EventLoggerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventLoggerTest.ifTheVehicleHasNotEnteredButNowLeavingThenDoNothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trafficmon" />
-      <option name="PACKAGE_NAME" value="com.trafficmon" />
-      <option name="MAIN_CLASS_NAME" value="com.trafficmon.EventLoggerTest" />
-      <option name="METHOD_NAME" value="ifTheVehicleHasNotEnteredButNowLeavingThenDoNothing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.ChargeByMinutesCalculatorTest" />
-      <item itemvalue="JUnit.ChargeByTimePeriodCalculatorTest" />
-      <item itemvalue="JUnit.All in trafficmon" />
-      <item itemvalue="JUnit.EventLoggerTest.ifTheVehicleHasNotEnteredButNowLeavingThenDoNothing" />
-      <item itemvalue="JUnit.EventLoggerTest" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in trafficmon" />
-        <item itemvalue="JUnit.ChargeByTimePeriodCalculatorTest" />
-        <item itemvalue="JUnit.ChargeByMinutesCalculatorTest" />
-        <item itemvalue="JUnit.EventLoggerTest" />
-        <item itemvalue="JUnit.EventLoggerTest.ifTheVehicleHasNotEnteredButNowLeavingThenDoNothing" />
       </list>
     </recent_temporary>
   </component>
@@ -289,82 +137,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="069c9021-361b-4341-9627-eee0a336290f" name="Default Changelist" comment="" />
-      <created>1543856137053</created>
+      <changelist id="ad174c59-5c8d-47c2-a2b6-6cee9ae605b0" name="Default Changelist" comment="" />
+      <created>1543939103712</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543856137053</updated>
-      <workItem from="1543856138662" duration="1737000" />
+      <updated>1543939103712</updated>
+      <workItem from="1543939105249" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChargeByMinutesCalculatorTest - 2018.12.03 at 16h 01m 49s.xml">
-      <configuration name="ChargeByMinutesCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChargeByMinutesCalculatorTest - 2018.12.03 at 16h 01m 51s.xml">
-      <configuration name="ChargeByMinutesCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChargeByTimePeriodCalculatorTest - 2018.12.03 at 16h 01m 57s.xml">
-      <configuration name="ChargeByTimePeriodCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_trafficmon - 2018.12.03 at 16h 05m 00s.xml">
-      <configuration name="All in trafficmon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_trafficmon - 2018.12.03 at 16h 56m 07s.xml">
-      <configuration name="All in trafficmon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChargeByMinutesCalculatorTest - 2018.12.03 at 16h 56m 59s.xml">
-      <configuration name="ChargeByMinutesCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_trafficmon - 2018.12.03 at 16h 57m 08s.xml">
-      <configuration name="All in trafficmon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChargeByTimePeriodCalculatorTest - 2018.12.03 at 17h 11m 51s.xml">
-      <configuration name="ChargeByTimePeriodCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChargeByTimePeriodCalculatorTest - 2018.12.03 at 17h 19m 52s.xml">
-      <configuration name="ChargeByTimePeriodCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_trafficmon - 2018.12.03 at 17h 23m 53s.xml">
+    <history-entry file="All_in_trafficmon - 2018.12.04 at 15h 58m 38s.xml">
       <configuration name="All in trafficmon" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1737000" />
+    <option name="totallyTimeSpent" value="621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
+      <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32998884" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.14164306" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.06970509" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,256 +193,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/trafficmon-externals.jar!/com/trafficmon/PenaltiesService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/trafficmon-externals.jar!/com/trafficmon/RegisteredCustomerAccountsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/RegisteredCustomerAccountsService.java" />
-    <entry file="file://$PROJECT_DIR$/src/ActionsDecided.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/Example.java" />
-    <entry file="file://$PROJECT_DIR$/test/com/trafficmon/EventLoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="80" column="70" lean-forward="true" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ActionsDecided.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ActionsTaken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ChargeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/CongestionChargeSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="method#calculateCharges#0;class#CongestionChargeSystem#0" />
-            <element signature="method#checkOrderingOf#0;class#CongestionChargeSystem#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/EventLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="method#getInstance#0;class#EventLogger#0" />
-            <element signature="method#vehicleLeavingZone#0;class#EventLogger#0" />
-            <element signature="method#getEventLog#0;class#EventLogger#0" />
-            <element signature="method#previouslyRegistered#0;class#EventLogger#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ExitEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#equals#0;class#Vehicle#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ZoneBoundaryCrossing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="method#ZoneBoundaryCrossing#0;class#ZoneBoundaryCrossing#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/trafficmon/APairOfNormalCrossingEventsCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="method#create#0;class#APairOfNormalCrossingEventsCreator#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/trafficmon/ChargeByMinutesCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/EntryEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ChargeByMinutesCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/trafficmon/ChargeByTimePeriodCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" column="96" selection-start-line="92" selection-start-column="96" selection-end-line="92" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/trafficmon/ChargeByTimePeriodCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/trafficmon/CongestionChargeSystemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>trafficmon</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

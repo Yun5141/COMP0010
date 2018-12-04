@@ -24,12 +24,14 @@ public class EventLogger{
         eventLog.add(new EntryEvent(vehicle));
     }
 
+
     public void vehicleLeavingZone(Vehicle vehicle) {
         if (!previouslyRegistered(vehicle)) {   //本身就在city zone里面，没有进来过，只现在出去
             return;
         }
         eventLog.add(new ExitEvent(vehicle));
     }
+
 
     public List<ZoneBoundaryCrossing> getEventLog(){
 

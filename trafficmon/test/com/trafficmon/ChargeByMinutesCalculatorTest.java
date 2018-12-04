@@ -27,7 +27,7 @@ public class ChargeByMinutesCalculatorTest {
 
         BigDecimal charge = calculateMethod.calculateChargeForTimeInZone(eventLog);
 
-        assertThat(charge,is(new BigDecimal(TimeSpentInsideTheZone).multiply(chargeRate)));
+        assertThat(charge,is(new BigDecimal(TimeSpentInsideTheZone * 1).multiply(chargeRate)));
     }
 
     @Test

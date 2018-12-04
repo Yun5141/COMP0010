@@ -15,6 +15,7 @@ public abstract class ZoneBoundaryCrossing {
         return vehicle;
     }
 
+
     public long timestamp() {
         return this.time;
     }

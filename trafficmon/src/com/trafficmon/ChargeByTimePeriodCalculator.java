@@ -19,14 +19,13 @@ public class ChargeByTimePeriodCalculator implements ChargeGenerator{
 
             if (crossing instanceof ExitEvent) {
                 totalTime = totalTime + minutesBetween(lastEvent.timestamp(), crossing.timestamp());
-
                 if(totalTime > 240) {
                     charge = BigDecimal.valueOf(12);
                     break;
                 }
             }
 
-            else if (crossing instanceof EntryEvent) {
+            if (crossing instanceof EntryEvent) {
                 if(minutesBetween(lastEvent.timestamp(),crossing.timestamp())>240)
                 {
                     charge = charge.add(getAddingCharge(crossing.timestamp()));
