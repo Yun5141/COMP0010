@@ -5,6 +5,14 @@ import org.joda.time.DateTimeUtils;
 
 import java.util.List;
 
+/*
+ * To help the two calculator tests log a pair of mock events without calling to the EventLogger class
+ *
+ * This class would create and log an entry event with the "enteringTime" provided ,
+ * and log an exiting event with the time that is "timeSpentInTheZone" after the "enteringTime"
+ * Both of the events would be logged at the given "eventLog"
+ * */
+
 public class APairOfNormalCrossingEventsCreator {
 
     private final DateTime enteringTime;

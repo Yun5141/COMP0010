@@ -19,6 +19,7 @@ public class ChargeByTimePeriodCalculator implements ChargeGenerator{
 
             if (crossing instanceof ExitEvent) {
                 totalTime = totalTime + minutesBetween(lastEvent.timestamp(), crossing.timestamp());
+                //if total time exceeds 4 hours, charge 12 pounds directly
                 if(totalTime > 240) {
                     charge = BigDecimal.valueOf(12);
                     break;
@@ -26,6 +27,7 @@ public class ChargeByTimePeriodCalculator implements ChargeGenerator{
             }
 
             if (crossing instanceof EntryEvent) {
+                //charge again if come back after 4 hours
                 if(minutesBetween(lastEvent.timestamp(),crossing.timestamp())>240)
                 {
                     charge = charge.add(getAddingCharge(crossing.timestamp()));
@@ -46,6 +48,7 @@ public class ChargeByTimePeriodCalculator implements ChargeGenerator{
     {
         DateTime dateTime = new DateTime(timeMills);
         int hour = dateTime.getHourOfDay();
+        //charge 6 pounds if entry before 14, else charge 4 pounds
         if(hour<14)
             return BigDecimal.valueOf(6);
         else return BigDecimal.valueOf(4);
